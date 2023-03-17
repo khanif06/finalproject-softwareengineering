@@ -1,0 +1,14 @@
+READ AND WRITE "makanan" with "seblak"
+READ AND WRITE "Saldo" with 20000
+READ AND WRITE "Total" with 15000
+READ AND WRITE "Jumlah pesanan" with 5
+
+WHILE "Jumlah pesanan" < 3
+   ADD "Jumlah pesanan" by 1
+
+DISPLAY "Pesan"
+
+IF "Saldo more than or equal Total"
+    PRINT "Berhasil membeli"
+ELSE
+    PRINT "Gagal membeli, saldo kurang"
